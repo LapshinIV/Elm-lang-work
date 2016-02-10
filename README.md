@@ -11,6 +11,7 @@ git clone https://github.com/LapshinIV/Elm-lang-work
 Once you are in the `Elm-lang-work/` directory, run these commands:
 
 ```bash
+cd Elm-lang-work
 elm-reactor
 ```
 
