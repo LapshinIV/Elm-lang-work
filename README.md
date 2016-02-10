@@ -1,8 +1,3 @@
-## Preview
-
-Click [here](https://github.com/LapshinIV/Elm-lang-work) to see it running.
-
-
 ## Run Locally
 
 (First [install Elm](http://elm-lang.org/install))
@@ -10,14 +5,12 @@ Click [here](https://github.com/LapshinIV/Elm-lang-work) to see it running.
 If you do not have this repo on your computer yet, run these commands.
 
 ```bash
-git clone https://github.com/evancz/elm-architecture-tutorial.git
-cd elm-architecture-tutorial
+git clone https://github.com/LapshinIV/Elm-lang-work
 ```
 
-Once you are in the `elm-architecture-tutorial/` directory, run these commands:
+Once you are in the `Elm-lang-work/` directory, run these commands:
 
 ```bash
-cd examples/2/
 elm-reactor
 ```
 
