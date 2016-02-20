@@ -12,11 +12,9 @@ update model = model
 
 
 view address model =
-  let counters = List.map (viewCounter address) model.counters
+  -- TODO: I believe it is possible to get rid of let ... in here.
+  let counters = List.map (\(id,counterModel) -> Counter.view counterModel) model.counters
       remove = button [] [ text "Remove" ]
       insert = button [] [ text "Add" ]
   in
       div [] ([remove, insert] ++ counters)
-
-
-viewCounter address (id, model) = Counter.view () model
