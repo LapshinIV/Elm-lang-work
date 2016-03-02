@@ -12,9 +12,8 @@ update model = model
 
 
 view address model =
-    div [] ([button [] [ text "Remove" ], button [] [ text "Add" ]] ++ List.map (viewCounter address) model.counters)
+    div [] ([button [] [ text "Remove" ], button [] [ text "Add" ]] ++ List.map (viewCounter) model.counters)
 
 
-viewCounter address (id, model) = Counter.view () model
-
+viewCounter (id, model) = Counter.view model 
 

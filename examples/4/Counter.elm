@@ -9,7 +9,7 @@ init count = count
 update model = model
 
 
-view address model =
+view model =
   div []
     [ button [] [ text "-" ], text (toString model), button [] [ text "+" ], button [] [ text "X" ]]
 
