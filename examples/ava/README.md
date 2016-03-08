@@ -12,7 +12,7 @@ cd Elm-lang-work
 Once you are in the `Elm-lang-work/` directory, run these commands:
 
 ```bash
-cd examples/1/
+cd examples/ava/
 elm-reactor
 ```
 
