@@ -1,19 +1,3 @@
---import Counter exposing (update, view, init)
---import StartApp.Simple exposing (start)
-
---main =
-  --start
-    --{ model = init
-    --, update = update
-    --, view = view
-    --}
-
-
-
-
-
-
-
 import Graphics.Element exposing (..)
 
 
@@ -27,3 +11,23 @@ init =
     ,opacity 1   (image 20 20 "/avatar/ivan.png")
     ,opacity 0.2 (image 20 20 "/avatar/alex.jpg")
     ]  
+
+
+
+
+
+
+
+
+
+
+
+    --import Counter exposing (update, view, init)
+--import StartApp.Simple exposing (start)
+
+--main =
+  --start
+    --{ model = init
+    --, update = update
+    --, view = view
+    --}
