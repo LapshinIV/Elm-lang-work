@@ -5,11 +5,11 @@
 --import Html.Events exposing (..)
 
 --init = [
-  --   opacity 1   (image 20 20 "/avatar/dmitry.jpg")
-    --,opacity 0.2 (image 20 20 "/avatar/macaw.jpg")
-    --,opacity 1   (image 20 20 "/avatar/ivan.png")
-    --,opacity 0.2 (image 20 20 "/avatar/alex.jpg")
-    --] 
+--     opacity 1   (image 20 20 "/avatar/dmitry.jpg")
+--    ,opacity 0.2 (image 20 20 "/avatar/macaw.jpg")
+--    ,opacity 1   (image 20 20 "/avatar/ivan.png")
+--    ,opacity 0.2 (image 20 20 "/avatar/alex.jpg")
+--    ] 
 
 
 --update model = model

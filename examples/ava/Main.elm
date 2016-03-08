@@ -1,9 +1,7 @@
 import Graphics.Element exposing (..)
 
-
 main = flow down (List.map (width 60) init)
     
-
 init =
     [
      opacity 1   (image 20 20 "/avatar/dmitry.jpg")
@@ -14,15 +12,7 @@ init =
 
 
 
-
-
-
-
-
-
-
-
-    --import Counter exposing (update, view, init)
+--import Counter exposing (update, view, init)
 --import StartApp.Simple exposing (start)
 
 --main =
